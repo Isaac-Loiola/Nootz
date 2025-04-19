@@ -1,0 +1,12 @@
+C:\Users\ratoj\source\repos\Nootz\NootzClass\bin\Debug\net8.0\NootzClass.deps.json
+C:\Users\ratoj\source\repos\Nootz\NootzClass\bin\Debug\net8.0\NootzClass.dll
+C:\Users\ratoj\source\repos\Nootz\NootzClass\bin\Debug\net8.0\NootzClass.pdb
+C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\NootzClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\NootzClass.AssemblyInfoInputs.cache
+C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\NootzClass.AssemblyInfo.cs
+C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\NootzClass.csproj.CoreCompileInputs.cache
+C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\NootzClass.sourcelink.json
+C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\NootzClass.dll
+C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\refint\NootzClass.dll
+C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\NootzClass.pdb
+C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\ref\NootzClass.dll

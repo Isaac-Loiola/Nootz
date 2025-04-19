@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NootzDesk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a7217be3127863bb7f39b855df59670fc230f4a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+780fe5343ad54e2ba5df666ed132f0e34d1b5cd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("NootzDesk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NootzDesk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
