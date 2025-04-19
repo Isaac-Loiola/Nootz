@@ -101,6 +101,7 @@
             btnExcluir01.TabIndex = 1;
             btnExcluir01.Text = "Excluir";
             btnExcluir01.UseVisualStyleBackColor = true;
+            btnExcluir01.Click += btnExcluir01_Click;
             // 
             // panel5
             // 
@@ -284,6 +285,7 @@
             btnAdicionar08.TabIndex = 37;
             btnAdicionar08.Text = "Adicionar";
             btnAdicionar08.UseVisualStyleBackColor = true;
+            btnAdicionar08.Click += btnAdicionar08_Click;
             // 
             // btnExcluir08
             // 
@@ -303,6 +305,7 @@
             btnAdicionar07.TabIndex = 35;
             btnAdicionar07.Text = "Adicionar";
             btnAdicionar07.UseVisualStyleBackColor = true;
+            btnAdicionar07.Click += btnAdicionar07_Click;
             // 
             // btnExcluir07
             // 
@@ -322,6 +325,7 @@
             btnAdicionar06.TabIndex = 33;
             btnAdicionar06.Text = "Adicionar";
             btnAdicionar06.UseVisualStyleBackColor = true;
+            btnAdicionar06.Click += btnAdicionar06_Click;
             // 
             // btnExcluir06
             // 
@@ -341,6 +345,7 @@
             btnAdicionar05.TabIndex = 31;
             btnAdicionar05.Text = "Adicionar";
             btnAdicionar05.UseVisualStyleBackColor = true;
+            btnAdicionar05.Click += btnAdicionar05_Click;
             // 
             // btnExluir05
             // 
@@ -360,6 +365,7 @@
             btnAdicionar04.TabIndex = 29;
             btnAdicionar04.Text = "Adicionar";
             btnAdicionar04.UseVisualStyleBackColor = true;
+            btnAdicionar04.Click += btnAdicionar04_Click;
             // 
             // btnExcluir04
             // 
@@ -379,6 +385,7 @@
             btnAdicionar03.TabIndex = 27;
             btnAdicionar03.Text = "Adicionar";
             btnAdicionar03.UseVisualStyleBackColor = true;
+            btnAdicionar03.Click += btnAdicionar03_Click;
             // 
             // btnExcluir03
             // 
@@ -398,6 +405,7 @@
             btnAdicionar02.TabIndex = 25;
             btnAdicionar02.Text = "Adicionar";
             btnAdicionar02.UseVisualStyleBackColor = true;
+            btnAdicionar02.Click += btnAdicionar02_Click;
             // 
             // btnExcluir02
             // 
@@ -431,6 +439,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             TransparencyKey = Color.White;
+            Load += FrmPrincipal_Load;
             panel4.ResumeLayout(false);
             panel4.PerformLayout();
             panel5.ResumeLayout(false);

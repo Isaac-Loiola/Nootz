@@ -50,12 +50,14 @@ namespace NootzClass
 
             // Intânciando a propriedade Ativo para a nota!
             cmd.CommandText = $"select ativo from notes where id = {Id}";
-            Ativo = Convert.ToBoolean(cmd.ExecuteScalar().ToString);
+            Ativo = Convert.ToBoolean(cmd.ExecuteScalar());
 
             // Intânciando a propriedade DataCriacao para a nota!
             cmd.CommandText = $"select data_criacao from notes where id = {Id}";
             DataCriacao = Convert.ToDateTime(cmd.ExecuteScalar());
         }
+
+
 
     }
 }
