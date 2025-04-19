@@ -11,15 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("NootzDesk")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("NootzClass")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a7217be3127863bb7f39b855df59670fc230f4a")]
-[assembly: System.Reflection.AssemblyProductAttribute("NootzDesk")]
-[assembly: System.Reflection.AssemblyTitleAttribute("NootzDesk")]
+[assembly: System.Reflection.AssemblyProductAttribute("NootzClass")]
+[assembly: System.Reflection.AssemblyTitleAttribute("NootzClass")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
