@@ -46,13 +46,6 @@
             pnl01 = new Panel();
             textBox1 = new TextBox();
             panel8 = new Panel();
-            btnAdicionar01 = new Button();
-            btnAdicionar02 = new Button();
-            btnExcluir02 = new Button();
-            btnAdicionar03 = new Button();
-            btnExcluir03 = new Button();
-            btnAdicionar04 = new Button();
-            btnExcluir04 = new Button();
             btnAdicionar08 = new Button();
             btnExcluir08 = new Button();
             btnAdicionar07 = new Button();
@@ -61,6 +54,13 @@
             btnExcluir06 = new Button();
             btnAdicionar05 = new Button();
             btnExluir05 = new Button();
+            btnAdicionar04 = new Button();
+            btnExcluir04 = new Button();
+            btnAdicionar03 = new Button();
+            btnExcluir03 = new Button();
+            btnAdicionar02 = new Button();
+            btnExcluir02 = new Button();
+            btnAdicionar01 = new Button();
             panel4.SuspendLayout();
             panel5.SuspendLayout();
             panel6.SuspendLayout();
@@ -276,72 +276,6 @@
             panel8.TabIndex = 22;
             panel8.Paint += panel8_Paint;
             // 
-            // btnAdicionar01
-            // 
-            btnAdicionar01.Location = new Point(85, 250);
-            btnAdicionar01.Name = "btnAdicionar01";
-            btnAdicionar01.Size = new Size(75, 25);
-            btnAdicionar01.TabIndex = 23;
-            btnAdicionar01.Text = "Adicionar";
-            btnAdicionar01.UseVisualStyleBackColor = true;
-            // 
-            // btnAdicionar02
-            // 
-            btnAdicionar02.Location = new Point(398, 250);
-            btnAdicionar02.Name = "btnAdicionar02";
-            btnAdicionar02.Size = new Size(75, 25);
-            btnAdicionar02.TabIndex = 25;
-            btnAdicionar02.Text = "Adicionar";
-            btnAdicionar02.UseVisualStyleBackColor = true;
-            // 
-            // btnExcluir02
-            // 
-            btnExcluir02.BackColor = Color.White;
-            btnExcluir02.Location = new Point(479, 250);
-            btnExcluir02.Name = "btnExcluir02";
-            btnExcluir02.Size = new Size(75, 25);
-            btnExcluir02.TabIndex = 24;
-            btnExcluir02.Text = "Excluir";
-            btnExcluir02.UseVisualStyleBackColor = true;
-            // 
-            // btnAdicionar03
-            // 
-            btnAdicionar03.Location = new Point(666, 250);
-            btnAdicionar03.Name = "btnAdicionar03";
-            btnAdicionar03.Size = new Size(75, 25);
-            btnAdicionar03.TabIndex = 27;
-            btnAdicionar03.Text = "Adicionar";
-            btnAdicionar03.UseVisualStyleBackColor = true;
-            // 
-            // btnExcluir03
-            // 
-            btnExcluir03.BackColor = Color.White;
-            btnExcluir03.Location = new Point(747, 250);
-            btnExcluir03.Name = "btnExcluir03";
-            btnExcluir03.Size = new Size(75, 25);
-            btnExcluir03.TabIndex = 26;
-            btnExcluir03.Text = "Excluir";
-            btnExcluir03.UseVisualStyleBackColor = true;
-            // 
-            // btnAdicionar04
-            // 
-            btnAdicionar04.Location = new Point(978, 250);
-            btnAdicionar04.Name = "btnAdicionar04";
-            btnAdicionar04.Size = new Size(75, 25);
-            btnAdicionar04.TabIndex = 29;
-            btnAdicionar04.Text = "Adicionar";
-            btnAdicionar04.UseVisualStyleBackColor = true;
-            // 
-            // btnExcluir04
-            // 
-            btnExcluir04.BackColor = Color.White;
-            btnExcluir04.Location = new Point(1059, 250);
-            btnExcluir04.Name = "btnExcluir04";
-            btnExcluir04.Size = new Size(75, 25);
-            btnExcluir04.TabIndex = 28;
-            btnExcluir04.Text = "Excluir";
-            btnExcluir04.UseVisualStyleBackColor = true;
-            // 
             // btnAdicionar08
             // 
             btnAdicionar08.Location = new Point(978, 501);
@@ -417,6 +351,73 @@
             btnExluir05.TabIndex = 30;
             btnExluir05.Text = "Excluir";
             btnExluir05.UseVisualStyleBackColor = true;
+            // 
+            // btnAdicionar04
+            // 
+            btnAdicionar04.Location = new Point(978, 250);
+            btnAdicionar04.Name = "btnAdicionar04";
+            btnAdicionar04.Size = new Size(75, 25);
+            btnAdicionar04.TabIndex = 29;
+            btnAdicionar04.Text = "Adicionar";
+            btnAdicionar04.UseVisualStyleBackColor = true;
+            // 
+            // btnExcluir04
+            // 
+            btnExcluir04.BackColor = Color.White;
+            btnExcluir04.Location = new Point(1059, 250);
+            btnExcluir04.Name = "btnExcluir04";
+            btnExcluir04.Size = new Size(75, 25);
+            btnExcluir04.TabIndex = 28;
+            btnExcluir04.Text = "Excluir";
+            btnExcluir04.UseVisualStyleBackColor = true;
+            // 
+            // btnAdicionar03
+            // 
+            btnAdicionar03.Location = new Point(666, 250);
+            btnAdicionar03.Name = "btnAdicionar03";
+            btnAdicionar03.Size = new Size(75, 25);
+            btnAdicionar03.TabIndex = 27;
+            btnAdicionar03.Text = "Adicionar";
+            btnAdicionar03.UseVisualStyleBackColor = true;
+            // 
+            // btnExcluir03
+            // 
+            btnExcluir03.BackColor = Color.White;
+            btnExcluir03.Location = new Point(747, 250);
+            btnExcluir03.Name = "btnExcluir03";
+            btnExcluir03.Size = new Size(75, 25);
+            btnExcluir03.TabIndex = 26;
+            btnExcluir03.Text = "Excluir";
+            btnExcluir03.UseVisualStyleBackColor = true;
+            // 
+            // btnAdicionar02
+            // 
+            btnAdicionar02.Location = new Point(398, 250);
+            btnAdicionar02.Name = "btnAdicionar02";
+            btnAdicionar02.Size = new Size(75, 25);
+            btnAdicionar02.TabIndex = 25;
+            btnAdicionar02.Text = "Adicionar";
+            btnAdicionar02.UseVisualStyleBackColor = true;
+            // 
+            // btnExcluir02
+            // 
+            btnExcluir02.BackColor = Color.White;
+            btnExcluir02.Location = new Point(479, 250);
+            btnExcluir02.Name = "btnExcluir02";
+            btnExcluir02.Size = new Size(75, 25);
+            btnExcluir02.TabIndex = 24;
+            btnExcluir02.Text = "Excluir";
+            btnExcluir02.UseVisualStyleBackColor = true;
+            // 
+            // btnAdicionar01
+            // 
+            btnAdicionar01.Location = new Point(85, 250);
+            btnAdicionar01.Name = "btnAdicionar01";
+            btnAdicionar01.Size = new Size(75, 25);
+            btnAdicionar01.TabIndex = 23;
+            btnAdicionar01.Text = "Adicionar";
+            btnAdicionar01.UseVisualStyleBackColor = true;
+            btnAdicionar01.Click += btnAdicionar01_Click;
             // 
             // FrmPrincipal
             // 

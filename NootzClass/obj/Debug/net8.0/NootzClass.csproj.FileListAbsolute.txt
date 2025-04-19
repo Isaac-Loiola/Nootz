@@ -10,3 +10,4 @@ C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\NootzClass.dll
 C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\refint\NootzClass.dll
 C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\NootzClass.pdb
 C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\ref\NootzClass.dll
+C:\Users\ratoj\source\repos\Nootz\NootzClass\obj\Debug\net8.0\NootzClass.csproj.AssemblyReference.cache
