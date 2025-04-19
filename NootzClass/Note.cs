@@ -11,10 +11,10 @@ namespace NootzClass
     {
 
         public int Id { get; set; }
-        public string? Texto { get; set; }
-        public bool? Ativo { get; set; }
-        public int? Painel { get; set; }
-        public DateTime? DataCriacao { get; set; }
+        public string Texto { get; set; }
+        public bool Ativo { get; set; }
+        public int Painel { get; set; }
+        public DateTime DataCriacao { get; set; }
         
         //Construrores
 
@@ -34,6 +34,10 @@ namespace NootzClass
         public Note(string texto, int painel)
         {
             Texto = texto;
+            Painel = painel;
+        }
+        public Note(int painel)
+        {
             Painel = painel;
         }
 
@@ -56,8 +60,15 @@ namespace NootzClass
             cmd.CommandText = $"select data_criacao from notes where id = {Id}";
             DataCriacao = Convert.ToDateTime(cmd.ExecuteScalar());
         }
+       
+        public void BuscarRegistro(int painel)
+        {
+            Note note = new();
+            if (note.Ativo)
+            {
+                var cmd = Banco.Abrir();
 
-
-
+            }
+        }
     }
 }

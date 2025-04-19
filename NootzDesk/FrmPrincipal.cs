@@ -11,7 +11,7 @@ namespace NootzDesk
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            Note note = new();
         }
 
         private void panel8_Paint(object sender, PaintEventArgs e)
