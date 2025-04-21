@@ -97,13 +97,13 @@
             // 
             // btnExcluir01
             // 
-            btnExcluir01.BackColor = Color.White;
+            btnExcluir01.BackColor = Color.Transparent;
             btnExcluir01.Location = new Point(166, 250);
             btnExcluir01.Name = "btnExcluir01";
             btnExcluir01.Size = new Size(75, 25);
             btnExcluir01.TabIndex = 1;
             btnExcluir01.Text = "Excluir";
-            btnExcluir01.UseVisualStyleBackColor = true;
+            btnExcluir01.UseVisualStyleBackColor = false;
             btnExcluir01.Click += btnExcluir01_Click;
             // 
             // panel5

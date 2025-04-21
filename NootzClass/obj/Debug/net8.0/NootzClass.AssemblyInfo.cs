@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NootzClass")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5082ce802df8406ed629a1a7adfc835cd50d4ef2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f6eb4e9ab4662f85eed3a7383eb8fc4077d9793")]
 [assembly: System.Reflection.AssemblyProductAttribute("NootzClass")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NootzClass")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

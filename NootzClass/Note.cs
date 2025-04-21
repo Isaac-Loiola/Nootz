@@ -50,12 +50,17 @@ namespace NootzClass
             Note note = new();
             var cmd = Banco.Abrir();
             cmd.CommandType = System.Data.CommandType.Text;
+            cmd.CommandText = $"update notes set ativo = 0 where painel = {Painel}";
+            cmd.ExecuteNonQuery();
+
+
+            cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = $"insert into notes(texto, painel) values('{Texto}', {Painel})";
             cmd.ExecuteNonQuery();
 
             // Intânciando a propriedade Id para a nota!
-            cmd.CommandText = "select last_insert_id()";
             cmd.CommandType = System.Data.CommandType.Text;
+            cmd.CommandText = "select last_insert_id()";
             Id = int.Parse(cmd.ExecuteScalar().ToString());
 
             // Intânciando a propriedade Ativo para a nota!
@@ -93,7 +98,7 @@ namespace NootzClass
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = $"update notes set ativo = 0 where painel = {painel} ";
             cmd.ExecuteNonQuery();
-
         }
+
     }
 }
