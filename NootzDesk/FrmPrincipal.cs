@@ -70,13 +70,13 @@ namespace NootzDesk
 
         private void btnExcluir01_Click(object sender, EventArgs e)
         {
-
+            Note.Excluir(1);
+            textBox1.Text = "";
         }
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-            textBox1.Text = Note.BuscarRegistro(1);
-
+            
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -119,6 +119,48 @@ namespace NootzDesk
         {
             textBox1.Text = Note.BuscarRegistro(8);
 
+        }
+
+        private void btnExcluir02_Click(object sender, EventArgs e)
+        {
+            Note.Excluir(2);
+            textBox1.Text = "";
+        }
+
+        private void btnExcluir03_Click(object sender, EventArgs e)
+        {
+            Note.Excluir(3);
+            textBox1.Text = "";
+        }
+
+        private void btnExcluir04_Click(object sender, EventArgs e)
+        {
+            Note.Excluir(4);
+            textBox1.Text = "";
+        }
+
+        private void btnExluir05_Click(object sender, EventArgs e)
+        {
+            Note.Excluir(5);
+            textBox1.Text = "";
+        }
+
+        private void btnExcluir06_Click(object sender, EventArgs e)
+        {
+            Note.Excluir(6);
+            textBox1.Text = "";
+        }
+
+        private void btnExcluir07_Click(object sender, EventArgs e)
+        {
+            Note.Excluir(7);
+            textBox1.Text = "";
+        }
+
+        private void btnExcluir08_Click(object sender, EventArgs e)
+        {
+            Note.Excluir(8);
+            textBox1.Text = "";
         }
     }
 }

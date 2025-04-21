@@ -70,17 +70,30 @@ namespace NootzClass
         }
        
         /// <summary>
-        /// Nétodo BuscarRegistro busca no banco de dados um registro com o painel 
+        /// Método BuscarRegistro busca no banco de dados um registro com o painel 
         /// referenciado no parâmetro, e que esteja ativo.
         /// </summary>
         /// <param name="painel"></param>
         /// <returns></returns>
         public static String BuscarRegistro(int painel)
-        {
+        {   
             var cmd = Banco.Abrir();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = $"select texto from notes where painel = {painel} and ativo = 1";
-            return Convert.ToString(cmd.ExecuteScalar());
+            return Convert.ToString(cmd.ExecuteScalar()); 
+        }
+
+        /// <summary>
+        /// Método excluir desativo o registro para não receber mais alterações.
+        /// </summary>
+        /// <param name="painel"></param>
+        public static void Excluir(int painel)
+        {
+            var cmd = Banco.Abrir();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = $"update notes set ativo = 0 where painel = {painel} ";
+            cmd.ExecuteNonQuery();
+
         }
     }
 }

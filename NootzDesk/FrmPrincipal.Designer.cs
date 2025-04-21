@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPrincipal));
             panel4 = new Panel();
             textBox8 = new TextBox();
             btnExcluir01 = new Button();
@@ -169,6 +170,7 @@
             // 
             // panel2
             // 
+            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
             panel2.Controls.Add(textBox4);
             panel2.Location = new Point(946, 47);
             panel2.Name = "panel2";
@@ -177,7 +179,7 @@
             // 
             // textBox4
             // 
-            textBox4.BackColor = Color.FromArgb(64, 64, 64);
+            textBox4.BackColor = Color.Black;
             textBox4.BorderStyle = BorderStyle.None;
             textBox4.Font = new Font("Segoe UI", 10F);
             textBox4.ForeColor = Color.FromArgb(224, 224, 224);
@@ -253,7 +255,8 @@
             // 
             // panel8
             // 
-            panel8.BackColor = Color.FromArgb(64, 64, 64);
+            panel8.BackColor = Color.Transparent;
+            panel8.BackgroundImage = (Image)resources.GetObject("panel8.BackgroundImage");
             panel8.Controls.Add(btnAdicionar08);
             panel8.Controls.Add(btnExcluir08);
             panel8.Controls.Add(btnAdicionar07);
@@ -303,6 +306,7 @@
             btnExcluir08.TabIndex = 36;
             btnExcluir08.Text = "Excluir";
             btnExcluir08.UseVisualStyleBackColor = true;
+            btnExcluir08.Click += btnExcluir08_Click;
             // 
             // btnAdicionar07
             // 
@@ -323,6 +327,7 @@
             btnExcluir07.TabIndex = 34;
             btnExcluir07.Text = "Excluir";
             btnExcluir07.UseVisualStyleBackColor = true;
+            btnExcluir07.Click += btnExcluir07_Click;
             // 
             // btnAdicionar06
             // 
@@ -343,6 +348,7 @@
             btnExcluir06.TabIndex = 32;
             btnExcluir06.Text = "Excluir";
             btnExcluir06.UseVisualStyleBackColor = true;
+            btnExcluir06.Click += btnExcluir06_Click;
             // 
             // btnAdicionar05
             // 
@@ -363,6 +369,7 @@
             btnExluir05.TabIndex = 30;
             btnExluir05.Text = "Excluir";
             btnExluir05.UseVisualStyleBackColor = true;
+            btnExluir05.Click += btnExluir05_Click;
             // 
             // btnAdicionar04
             // 
@@ -383,6 +390,7 @@
             btnExcluir04.TabIndex = 28;
             btnExcluir04.Text = "Excluir";
             btnExcluir04.UseVisualStyleBackColor = true;
+            btnExcluir04.Click += btnExcluir04_Click;
             // 
             // btnAdicionar03
             // 
@@ -403,6 +411,7 @@
             btnExcluir03.TabIndex = 26;
             btnExcluir03.Text = "Excluir";
             btnExcluir03.UseVisualStyleBackColor = true;
+            btnExcluir03.Click += btnExcluir03_Click;
             // 
             // btnAdicionar02
             // 
@@ -423,6 +432,7 @@
             btnExcluir02.TabIndex = 24;
             btnExcluir02.Text = "Excluir";
             btnExcluir02.UseVisualStyleBackColor = true;
+            btnExcluir02.Click += btnExcluir02_Click;
             // 
             // btnAdicionar01
             // 
@@ -438,7 +448,8 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Gray;
+            BackColor = Color.Black;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(1245, 686);
             Controls.Add(panel8);
