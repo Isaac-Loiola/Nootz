@@ -75,7 +75,51 @@ namespace NootzDesk
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-         
+            textBox1.Text = Note.BuscarRegistro(1);
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = Note.BuscarRegistro(2);
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = Note.BuscarRegistro(3);
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = Note.BuscarRegistro(4);
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = Note.BuscarRegistro(5);
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = Note.BuscarRegistro(6);
+
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = Note.BuscarRegistro(7);
+
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = Note.BuscarRegistro(8);
+
         }
     }
 }
+

@@ -36,39 +36,51 @@ namespace NootzClass
             Texto = texto;
             Painel = painel;
         }
-        public Note(int painel)
+        public Note(string texto)
         {
-            Painel = painel;
+            Texto = texto;
         }
 
+        /// <summary>
+        /// Adiciona uma nota ao banco de dados.
+        /// Propriedades necessárias para adionar são: Texto e numero do Painel.
+        /// </summary>
         public void Adicionar()
         {
             Note note = new();
             var cmd = Banco.Abrir();
+            cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = $"insert into notes(texto, painel) values('{Texto}', {Painel})";
             cmd.ExecuteNonQuery();
 
             // Intânciando a propriedade Id para a nota!
             cmd.CommandText = "select last_insert_id()";
+            cmd.CommandType = System.Data.CommandType.Text;
             Id = int.Parse(cmd.ExecuteScalar().ToString());
 
             // Intânciando a propriedade Ativo para a nota!
+            cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = $"select ativo from notes where id = {Id}";
             Ativo = Convert.ToBoolean(cmd.ExecuteScalar());
 
             // Intânciando a propriedade DataCriacao para a nota!
+            cmd.CommandType = System.Data.CommandType.Text;
             cmd.CommandText = $"select data_criacao from notes where id = {Id}";
             DataCriacao = Convert.ToDateTime(cmd.ExecuteScalar());
         }
        
-        public void BuscarRegistro(int painel)
+        /// <summary>
+        /// Nétodo BuscarRegistro busca no banco de dados um registro com o painel 
+        /// referenciado no parâmetro, e que esteja ativo.
+        /// </summary>
+        /// <param name="painel"></param>
+        /// <returns></returns>
+        public static String BuscarRegistro(int painel)
         {
-            Note note = new();
-            if (note.Ativo)
-            {
-                var cmd = Banco.Abrir();
-
-            }
+            var cmd = Banco.Abrir();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = $"select texto from notes where painel = {painel} and ativo = 1";
+            return Convert.ToString(cmd.ExecuteScalar());
         }
     }
 }

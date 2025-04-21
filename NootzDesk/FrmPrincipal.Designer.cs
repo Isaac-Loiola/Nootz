@@ -91,6 +91,7 @@
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(194, 178);
             textBox8.TabIndex = 1;
+            textBox8.TextChanged += textBox8_TextChanged;
             // 
             // btnExcluir01
             // 
@@ -122,6 +123,7 @@
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(194, 178);
             textBox7.TabIndex = 1;
+            textBox7.TextChanged += textBox7_TextChanged;
             // 
             // panel6
             // 
@@ -142,6 +144,7 @@
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(194, 178);
             textBox6.TabIndex = 1;
+            textBox6.TextChanged += textBox6_TextChanged;
             // 
             // panel7
             // 
@@ -162,6 +165,7 @@
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(194, 178);
             textBox5.TabIndex = 1;
+            textBox5.TextChanged += textBox5_TextChanged;
             // 
             // panel2
             // 
@@ -182,6 +186,7 @@
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(194, 178);
             textBox4.TabIndex = 1;
+            textBox4.TextChanged += textBox4_TextChanged;
             // 
             // panel3
             // 
@@ -202,6 +207,7 @@
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(194, 178);
             textBox3.TabIndex = 1;
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // panel1
             // 
@@ -222,6 +228,7 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(194, 178);
             textBox2.TabIndex = 1;
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // pnl01
             // 
