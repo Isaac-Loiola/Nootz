@@ -86,6 +86,7 @@ namespace NootzDesk
         {
             Note.Excluir(1);
             textBox1.Text = "";
+            MessageBox.Show("Nota excluida com sucesso!");
         }
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
@@ -147,42 +148,54 @@ namespace NootzDesk
         {
             Note.Excluir(2);
             textBox1.Text = "";
+            MessageBox.Show("Nota excluida com sucesso!");
         }
 
         private void btnExcluir03_Click(object sender, EventArgs e)
         {
             Note.Excluir(3);
             textBox1.Text = "";
+            MessageBox.Show("Nota excluida com sucesso!");
+
         }
 
         private void btnExcluir04_Click(object sender, EventArgs e)
         {
             Note.Excluir(4);
             textBox1.Text = "";
+            MessageBox.Show("Nota excluida com sucesso!");
+
         }
 
         private void btnExluir05_Click(object sender, EventArgs e)
         {
             Note.Excluir(5);
             textBox1.Text = "";
+            MessageBox.Show("Nota excluida com sucesso!");
+
         }
 
         private void btnExcluir06_Click(object sender, EventArgs e)
         {
             Note.Excluir(6);
             textBox1.Text = "";
+            MessageBox.Show("Nota excluida com sucesso!");
+
         }
 
         private void btnExcluir07_Click(object sender, EventArgs e)
         {
             Note.Excluir(7);
             textBox1.Text = "";
+            MessageBox.Show("Nota excluida com sucesso!");
+
         }
 
         private void btnExcluir08_Click(object sender, EventArgs e)
         {
             Note.Excluir(8);
             textBox1.Text = "";
+            MessageBox.Show("Nota excluida com sucesso!");
         }
     }
 }
