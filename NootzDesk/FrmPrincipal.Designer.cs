@@ -75,6 +75,7 @@
             // 
             // panel4
             // 
+            panel4.BackgroundImage = Properties.Resources.Sem_título_2__1_;
             panel4.Controls.Add(textBox8);
             panel4.Location = new Point(946, 298);
             panel4.Name = "panel4";
@@ -83,7 +84,7 @@
             // 
             // textBox8
             // 
-            textBox8.BackColor = Color.FromArgb(64, 64, 64);
+            textBox8.BackColor = Color.Black;
             textBox8.BorderStyle = BorderStyle.None;
             textBox8.Font = new Font("Segoe UI", 10F);
             textBox8.ForeColor = Color.FromArgb(224, 224, 224);
@@ -107,6 +108,7 @@
             // 
             // panel5
             // 
+            panel5.BackgroundImage = Properties.Resources.Sem_título_2__1_;
             panel5.Controls.Add(textBox7);
             panel5.Location = new Point(637, 298);
             panel5.Name = "panel5";
@@ -115,7 +117,7 @@
             // 
             // textBox7
             // 
-            textBox7.BackColor = Color.FromArgb(64, 64, 64);
+            textBox7.BackColor = Color.Black;
             textBox7.BorderStyle = BorderStyle.None;
             textBox7.Font = new Font("Segoe UI", 10F);
             textBox7.ForeColor = Color.FromArgb(224, 224, 224);
@@ -128,6 +130,7 @@
             // 
             // panel6
             // 
+            panel6.BackgroundImage = Properties.Resources.Sem_título_2__1_;
             panel6.Controls.Add(textBox6);
             panel6.Location = new Point(367, 298);
             panel6.Name = "panel6";
@@ -136,7 +139,7 @@
             // 
             // textBox6
             // 
-            textBox6.BackColor = Color.FromArgb(64, 64, 64);
+            textBox6.BackColor = Color.Black;
             textBox6.BorderStyle = BorderStyle.None;
             textBox6.Font = new Font("Segoe UI", 10F);
             textBox6.ForeColor = Color.FromArgb(224, 224, 224);
@@ -149,6 +152,7 @@
             // 
             // panel7
             // 
+            panel7.BackgroundImage = Properties.Resources.Sem_título_2__1_;
             panel7.Controls.Add(textBox5);
             panel7.Location = new Point(58, 298);
             panel7.Name = "panel7";
@@ -157,7 +161,7 @@
             // 
             // textBox5
             // 
-            textBox5.BackColor = Color.FromArgb(64, 64, 64);
+            textBox5.BackColor = Color.Black;
             textBox5.BorderStyle = BorderStyle.None;
             textBox5.Font = new Font("Segoe UI", 10F);
             textBox5.ForeColor = Color.FromArgb(224, 224, 224);
@@ -170,7 +174,7 @@
             // 
             // panel2
             // 
-            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
+            panel2.BackgroundImage = Properties.Resources.Sem_título_2__1_;
             panel2.Controls.Add(textBox4);
             panel2.Location = new Point(946, 47);
             panel2.Name = "panel2";
@@ -192,6 +196,7 @@
             // 
             // panel3
             // 
+            panel3.BackgroundImage = Properties.Resources.Sem_título_2__1_;
             panel3.Controls.Add(textBox3);
             panel3.Location = new Point(637, 47);
             panel3.Name = "panel3";
@@ -200,7 +205,7 @@
             // 
             // textBox3
             // 
-            textBox3.BackColor = Color.FromArgb(64, 64, 64);
+            textBox3.BackColor = Color.Black;
             textBox3.BorderStyle = BorderStyle.None;
             textBox3.Font = new Font("Segoe UI", 10F);
             textBox3.ForeColor = Color.FromArgb(224, 224, 224);
@@ -213,6 +218,7 @@
             // 
             // panel1
             // 
+            panel1.BackgroundImage = Properties.Resources.Sem_título_2__1_;
             panel1.Controls.Add(textBox2);
             panel1.Location = new Point(367, 47);
             panel1.Name = "panel1";
@@ -221,7 +227,7 @@
             // 
             // textBox2
             // 
-            textBox2.BackColor = Color.FromArgb(64, 64, 64);
+            textBox2.BackColor = Color.Black;
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Font = new Font("Segoe UI", 10F);
             textBox2.ForeColor = Color.FromArgb(224, 224, 224);
@@ -234,6 +240,7 @@
             // 
             // pnl01
             // 
+            pnl01.BackgroundImage = Properties.Resources.Sem_título_2__1_;
             pnl01.Controls.Add(textBox1);
             pnl01.Location = new Point(58, 47);
             pnl01.Name = "pnl01";
@@ -242,7 +249,7 @@
             // 
             // textBox1
             // 
-            textBox1.BackColor = Color.FromArgb(64, 64, 64);
+            textBox1.BackColor = Color.Black;
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.FromArgb(224, 224, 224);
@@ -281,7 +288,7 @@
             panel8.Controls.Add(panel5);
             panel8.Controls.Add(btnExcluir01);
             panel8.Controls.Add(panel4);
-            panel8.Location = new Point(12, 86);
+            panel8.Location = new Point(17, 63);
             panel8.Name = "panel8";
             panel8.Size = new Size(1213, 567);
             panel8.TabIndex = 22;
@@ -449,7 +456,6 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(1245, 686);
             Controls.Add(panel8);
