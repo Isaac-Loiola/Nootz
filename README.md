@@ -8,11 +8,7 @@
 
 - Criar e excluir notas 📝
 - Interface simples e intuitiva 🎨
-- Salve seus pensamentos em segundos ⏳
-
-## 📸 Preview
-
-
+- Salve seus pensamentos de forma rápida ⏳
 
 ## 🛠️ Tecnologias utilizadas
 
